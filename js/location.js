@@ -1,11 +1,11 @@
-const mapAPI = document.getElementById('map-API')
+// const mapAPI = document.getElementById('map-API')
 const findAWayBtn = document.getElementById('findaway-btn')
-const mapOptions = {
-    center: window.kakao.maps.LatLng(36.363903, 127.249803), //지도의 중심좌표.
-	level: 3 //지도의 레벨(확대, 축소 정도)
-}
+// const mapOptions = {
+//     center: new kakao.maps.LatLng(36.363903, 127.249803), //지도의 중심좌표.
+// 	level: 3 //지도의 레벨(확대, 축소 정도)
+// }
 
-const map = new kakao.maps.Map(mapAPI, mapOptions); //지도 생성 및 객체 리턴
+// const map = new kakao.maps.Map(mapAPI, mapOptions); //지도 생성 및 객체 리턴
 
 var zoomControl = new kakao.maps.ZoomControl();
 map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
