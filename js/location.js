@@ -2,7 +2,6 @@ const script = document.createElement("script");
 script.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=2e8ef7a7d96de35e5673f48cf705049c&autoload=false&libraries=clusterer,services&";
 document.head.appendChild(script);
 script.onload = () => {
-    console.log(process.env.MAPS_API_KEY)
     kakao.maps.load(() => {
         const mapAPI = document.getElementById('map-API')
         const findAWayBtn = document.getElementById('findaway-btn')
