@@ -68,7 +68,7 @@ main>h1{
 #icon-searchbar-npage{
     width: 30px;
     height: 30px;
-    background-image: url(/webpage/img/8666693_search_icon.png);
+    background-image: url(/img/8666693_search_icon.png);
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -119,16 +119,16 @@ main>h1{
     /* border: 1px solid purple; */
 }
 .page-nav-btn.first{
-    background-image: url(/webpage/img/8665071_angles_left_icon.png);
+    background-image: url(/img/8665071_angles_left_icon.png);
 }
 .page-nav-btn.left{
-    background-image: url(/webpage/img/8665062_angle_left_icon_bl.png);
+    background-image: url(/img/8665062_angle_left_icon_bl.png);
 }
 .page-nav-btn.right{
-    background-image: url(/webpage/img/8664947_angle_right_icon_bl.png);
+    background-image: url(/img/8664947_angle_right_icon_bl.png);
 }
 .page-nav-btn.last{
-    background-image: url(/webpage/img/8665090_angles_right_icon.png);
+    background-image: url(/img/8665090_angles_right_icon.png);
 }
 
 

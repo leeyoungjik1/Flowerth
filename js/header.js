@@ -104,7 +104,7 @@ window.addEventListener('scroll', moveGnb)
 
 
 function moveToMain(){
-    window.location.href = "/webpage/main.html"
+    window.location.href = "/index.html"
 }
 
 

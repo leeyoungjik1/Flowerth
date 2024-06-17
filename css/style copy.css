@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ahn';
-    src: url('/webpage/font/나눔손글씨\ 안쌍체.ttf') format('truetype');
+    src: url('/font/나눔손글씨\ 안쌍체.ttf') format('truetype');
 }
 
 :root{
@@ -90,7 +90,7 @@ header{
     height: 100%;
     width: 150px;
     /* background-color: blue; */
-    background-image: url(/webpage/img/logo2.png);
+    background-image: url(/img/logo2.png);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -188,13 +188,13 @@ nav ul{
     cursor: pointer;
 }
 .icon.login{
-    background-image: url(/webpage/img/8666609_user_icon.png);
+    background-image: url(/img/8666609_user_icon.png);
 }
 .icon.search{
-    background-image: url(/webpage/img/8666693_search_icon.png);
+    background-image: url(/img/8666693_search_icon.png);
 }
 .icon.sitemap{
-    background-image: url(/webpage/img/8666802_menu_navigation_icon.png);
+    background-image: url(/img/8666802_menu_navigation_icon.png);
 }
 #searchbar{
     width: 100%; height: 100vh;
@@ -223,7 +223,7 @@ nav ul{
 #icon-searchbar{
     width: 30px;
     height: 30px;
-    background-image: url(/webpage/img/8666693_search_icon.png);
+    background-image: url(/img/8666693_search_icon.png);
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -271,20 +271,20 @@ main{
     background-position: center;
 }
 .scroll-img:nth-child(1){
-    background-image: url(/webpage/img/mainimg3.jpg);
+    background-image: url(/img/mainimg3.jpg);
 
 }
 .scroll-img:nth-child(2){
-    background-image: url(/webpage/img/mainimg1.jpg);
+    background-image: url(/img/mainimg1.jpg);
 }
 .scroll-img:nth-child(3){
-    background-image: url(/webpage/img/mainimg2\ copy.jpg);
+    background-image: url(/img/mainimg2\ copy.jpg);
 }
 .scroll-img:nth-child(4){
-    background-image: url(/webpage/img/mainimg3.jpg);
+    background-image: url(/img/mainimg3.jpg);
 }
 .scroll-img:nth-child(5){
-    background-image: url(/webpage/img/mainimg1.jpg);
+    background-image: url(/img/mainimg1.jpg);
 }
 #scroll-img-btns{
     width: 100%;
@@ -311,7 +311,7 @@ main{
     transform: scale(1.2);
 }
 .scroll-img-btn.left{
-    background-image: url(/webpage/img/8665062_angle_left_icon.png);
+    background-image: url(/img/8665062_angle_left_icon.png);
     margin: 0 2rem;
 }
 #scroll-img-btns-select{
@@ -328,7 +328,7 @@ main{
     background-color: rgba(var(--praimary-color-tp), 0.6);
 }
 .scroll-img-btn.right{
-    background-image: url(/webpage/img/8664947_angle_right_icon.png);
+    background-image: url(/img/8664947_angle_right_icon.png);
     margin: 0 2rem;
 }
 
@@ -417,14 +417,14 @@ main{
 
 }
 .sub-img:nth-child(1){
-    background-image: url(/webpage/img/mainimg3.jpg);
+    background-image: url(/img/mainimg3.jpg);
 
 }
 .sub-img:nth-child(2){
-    background-image: url(/webpage/img/mainimg1.jpg);
+    background-image: url(/img/mainimg1.jpg);
 }
 .sub-img:nth-child(3){
-    background-image: url(/webpage/img/mainimg2\ copy.jpg);
+    background-image: url(/img/mainimg2\ copy.jpg);
 }
 
 
@@ -626,7 +626,7 @@ footer p{
 }
 .icon.footer-insta{
     /* border: 1px solid green; */
-    background-image: url(/webpage/img/instagram_logo_icon.png);
+    background-image: url(/img/instagram_logo_icon.png);
     margin-right: 3rem;
 }
 
@@ -670,7 +670,7 @@ footer p{
 #icon-searchbar-npage{
     width: 30px;
     height: 30px;
-    background-image: url(/webpage/img/8666693_search_icon.png);
+    background-image: url(/img/8666693_search_icon.png);
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -721,16 +721,16 @@ footer p{
     /* border: 1px solid purple; */
 }
 .page-nav-btn.first{
-    background-image: url(/webpage/img/8665071_angles_left_icon.png);
+    background-image: url(/img/8665071_angles_left_icon.png);
 }
 .page-nav-btn.left{
-    background-image: url(/webpage/img/8665062_angle_left_icon_bl.png);
+    background-image: url(/img/8665062_angle_left_icon_bl.png);
 }
 .page-nav-btn.right{
-    background-image: url(/webpage/img/8664947_angle_right_icon_bl.png);
+    background-image: url(/img/8664947_angle_right_icon_bl.png);
 }
 .page-nav-btn.last{
-    background-image: url(/webpage/img/8665090_angles_right_icon.png);
+    background-image: url(/img/8665090_angles_right_icon.png);
 }
 
 

@@ -20,7 +20,7 @@ function pushNotice(n){
     noticeNpageDiv.className = 'notice-npage'
     const noticeNpageH2 = document.createElement('h2')
     const noticeNpageA = document.createElement('a')
-    noticeNpageA.setAttribute('href', `/webpage/notice_content.html?id=${noticeArr[n].noticeIdNum}`)
+    noticeNpageA.setAttribute('href', `/notice_content.html?id=${noticeArr[n].noticeIdNum}`)
     noticeNpageA.innerText = noticeArr[n].title
     noticeNpageH2.appendChild(noticeNpageA)
     const noticeNpageP = document.createElement('p')

@@ -91,7 +91,7 @@ function showSearchbar(){
 }
 
 function moveToMain(){
-    window.location.href = "/webpage/main.html"
+    window.location.href = "/index.html"
 }
 
 let preScrollTop = 0;

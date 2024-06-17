@@ -112,7 +112,7 @@ function showNotice(){
     function pushNotice(){
         const noticeTitleA = noticeTitle.querySelector('a')
         noticeTitleA.innerHTML = noticeArr[i].title
-        noticeTitleA.setAttribute('href', `/webpage/notice_content.html?id=${noticeArr[i].noticeIdNum}`)
+        noticeTitleA.setAttribute('href', `/notice_content.html?id=${noticeArr[i].noticeIdNum}`)
         noticeDate.innerText = noticeArr[i].date
     }
     function nextNotice(){
@@ -180,10 +180,10 @@ function getPosition(e){
 
 
 function moveToLocationPage(){
-    window.location.href = "/webpage/location.html"
+    window.location.href = "/location.html"
 }
 function moveToReservePage(){
-    window.location.href = "/webpage/reserve_indiv.html"
+    window.location.href = "/reserve_indiv.html"
 }
 
 iconReserve.addEventListener('click', moveToReservePage)

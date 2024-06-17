@@ -18,12 +18,12 @@ dateNcpage.innerText = `등록일 ${selectedNotice.date}`
 
 function pushNextNotice(){
     noticeNextTitle.innerText = noticeArr[selectedNoticeIdNum-2].title
-    noticeNextTitle.setAttribute('href', `/webpage/notice_content.html?id=${noticeArr[selectedNoticeIdNum-2].noticeIdNum}`)
+    noticeNextTitle.setAttribute('href', `/notice_content.html?id=${noticeArr[selectedNoticeIdNum-2].noticeIdNum}`)
     noticeNextDate.innerText = noticeArr[selectedNoticeIdNum-2].date
 }
 function pushPrevNotice(){
     noticePrevTitle.innerText = noticeArr[selectedNoticeIdNum].title
-    noticePrevTitle.setAttribute('href', `/webpage/notice_content.html?id=${noticeArr[selectedNoticeIdNum].noticeIdNum}`)
+    noticePrevTitle.setAttribute('href', `/notice_content.html?id=${noticeArr[selectedNoticeIdNum].noticeIdNum}`)
     noticePrevDate.innerText = noticeArr[selectedNoticeIdNum].date
 }
 
@@ -43,7 +43,7 @@ function loadNotice(){
 }
 
 function moveToList(){
-    window.location.href = "/webpage/notice.html"
+    window.location.href = "/notice.html"
 }
 
 noticeNcpageBtn.addEventListener('click', moveToList)
