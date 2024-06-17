@@ -1,7 +1,7 @@
 const mapAPI = document.getElementById('map-API')
 const findAWayBtn = document.getElementById('findaway-btn')
 const mapOptions = {
-    center: new kakao.maps.LatLng(36.363903, 127.249803), //지도의 중심좌표.
+    center: new window.kakao.maps.LatLng(36.363903, 127.249803), //지도의 중심좌표.
 	level: 3 //지도의 레벨(확대, 축소 정도)
 }
 
