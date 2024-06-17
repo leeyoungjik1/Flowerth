@@ -24,6 +24,12 @@
         document.getElementById("map-script").src = API_KEY;
     </script> -->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e8ef7a7d96de35e5673f48cf705049c"></script>
+    <script type="text/javascript">
+        kakao.maps.load(function() {
+            // v3가 모두 로드된 후, 이 콜백 함수가 실행됩니다.
+            var map = new kakao.maps.Map(node, options);
+    });
+    </script>
     <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%MAPS_API_KEY%"></script> -->
 </head>
 <body>
