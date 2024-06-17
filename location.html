@@ -18,7 +18,12 @@
         })(document);
     </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e8ef7a7d96de35e5673f48cf705049c"></script>
+    <script id="map-script" type="text/javascript" charset="utf-8"></script>
+    <script>
+        const API_KEY = encodeURIComponent(`//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.MAPS_API_KEY}`);
+        document.getElementById("map-script").src = API_KEY;
+    </script>
+    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e8ef7a7d96de35e5673f48cf705049c"></script> -->
 </head>
 <body>
     <header>
